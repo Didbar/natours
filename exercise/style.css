@@ -28,7 +28,7 @@ nav::after {
   margin: 0;
 }
 
-.navigation li a:link {
+.navigation li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #333;
@@ -38,19 +38,18 @@ nav::after {
   float: right;
 }
 
-.btn-main,
-.btn-hot {
+.btn-main, .btn-hot {
   padding: 10px;
   display: inline-block;
   text-align: center;
   border-radius: 100px;
+  width: 150px;
   text-decoration: none;
   text-transform: uppercase;
   color: #fffbfb;
-  width: 150px;
 }
 
-.btn-main:link {
+.btn-main {
   background-color: #f08a5d;
 }
 
@@ -58,7 +57,7 @@ nav::after {
   background-color: #ea5717;
 }
 
-.btn-hot:link {
+.btn-hot {
   background-color: #b83b53;
 }
 
