@@ -1,0 +1,20 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "We Developer project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Didbar/natours.git"
+  },
+  "author": "Daviti Didbaridze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Didbar/natours/issues"
+  },
+  "homepage": "https://github.com/Didbar/natours#readme",
+  "dependencies": {}
+}
