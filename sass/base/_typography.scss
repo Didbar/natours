@@ -4,7 +4,10 @@ body {
   font-size: 1.6rem;
   line-height: 1.7;
   color: $color-grey-dark;
-  padding: 3rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
 }
 
 .heading-primary {
@@ -34,7 +37,7 @@ body {
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   display: inline-block;
   background-image: linear-gradient(
     to right,
@@ -48,7 +51,8 @@ body {
   transition: all 0.2s;
 
   &:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    transform: scale(1.1);
+    font-weight: 700;
     text-shadow: 0.5rem 1rem 2em rgba($color-black, 0.2);
   }
 }
