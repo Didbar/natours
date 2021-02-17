@@ -102,6 +102,7 @@
     transform: scale(80);
   }
   &__checkbox:checked ~ &__nav {
+    display: initial;
     opacity: 1;
     width: 100%;
   }
