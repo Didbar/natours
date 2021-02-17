@@ -900,11 +900,36 @@ body {
   display: table-cell;
 }
 
+@media (max-width: 56.25em) {
+  .popup__left {
+    width: 50%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .popup__left {
+    width: 0;
+  }
+}
+
 .popup__right {
   width: 66.66666%;
   display: table-cell;
   vertical-align: middle;
   padding: 3rem 5rem;
+}
+
+@media (max-width: 56.25em) {
+  .popup__right {
+    padding: 1rem 1.5rem;
+    width: 50%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .popup__right {
+    width: 100%;
+  }
 }
 
 .popup__img {
@@ -924,6 +949,13 @@ body {
   -webkit-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;
+}
+
+@media (max-width: 56.25em) {
+  .popup__text {
+    -webkit-column-count: 1;
+            column-count: 1;
+  }
 }
 
 .popup:target {
